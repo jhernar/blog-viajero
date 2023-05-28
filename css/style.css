@@ -1,0 +1,99 @@
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+	list-style: none;
+	text-decoration: none;
+}
+
+header {
+	background: rgba(0,0,0,0.72);
+}
+
+header ul {
+
+}
+
+header ul li {
+	margin-right: 10px;
+}
+
+.logotipo {
+	width: 45%;
+}
+
+.fa, .fab {
+	font-size: 3em;
+	color: #fff;
+}
+
+
+
+
+.fa-facebook {
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 100%;
+	color: #023170;
+}
+
+.fa-instagram {
+	background-color: #f09433;
+	color: #fff;
+	border-radius: 10px;
+	border: 3px solid #f09433;
+
+}
+
+.fa-snapchat {
+	color: #e6fc25;
+	border-radius: 100%;
+	background: #fff;
+	border: 3px solid #fff;
+
+}
+
+.fa-youtube {
+	background-color: #fff;
+	border-radius: 30%;
+	color: #f71d3e;
+	border: 3px solid #fff;
+
+}
+
+.fa-twitter {
+	background-color: #fff;
+	border-radius: 100%;
+	border: 3px solid #fff;
+	color:  #0473ea;
+}
+
+.fa-search {
+	font-size: 30px;
+	
+}
+
+
+
+
+
+@media (max-width: 1199px) and (min-width: 992px) {}
+
+
+@media (max-width: 991px) and (min-width: 768px) {}
+
+
+@media (max-width: 767px) and (min-width: 576px) {}
+
+
+@media (max-width: 1199px) and (min-width: 992px) {}
