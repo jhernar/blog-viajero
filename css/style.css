@@ -1,5 +1,7 @@
 * {
 	font-family: 'Courier New', Courier, monospace;
+	margin: 0;
+	padding: 0;
 }
 
 ul,
@@ -17,31 +19,61 @@ a:active {
 }
 
 header {
-	background: rgba(0,0,0,0.72);
+	background: rgba(0, 0, 0, 0.72);
+	width: 100%;
+	/* margin: 0 auto; */
 }
 
-header ul {
-
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+	/* padding: 5px; */
 }
 
-header ul li {
-	margin-right: 10px;
+
+.container-logo {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .logotipo {
-	width: 45%;
+	width: 60%;
+	display: flex;
 }
 
-.fa, .fab {
-	font-size: 3em;
+
+
+
+/*GRUPO DE ICONOS DE REDES SOCIALES*/
+.container-redes{
+	width: 20%;
+	display: flex;
+}
+.grupo-redes {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	align-items: center;
+	width: 100%;
+}
+
+.grupo-redes li {
+	/* margin-left: 20px; */
+
+}
+
+.fa,
+.fab {
+	font-size: 2em;
 	color: #fff;
 }
 
-
-
-
 .fa-facebook {
-	background-color: #fff;
+	background-color: #ffffff;
 	border: 3px solid #fff;
 	border-radius: 100%;
 	color: #023170;
@@ -75,25 +107,17 @@ header ul li {
 	background-color: #fff;
 	border-radius: 100%;
 	border: 3px solid #fff;
-	color:  #0473ea;
-}
-
-.fa-search {
-	font-size: 30px;
-	
+	color: #0473ea;
 }
 
 
+/*MENU Y BUSQUEDA*/
+.menu-busqueda {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 10%;
+	/* padding: 10px; */
+}
 
-
-
-@media (max-width: 1199px) and (min-width: 992px) {}
-
-
-@media (max-width: 991px) and (min-width: 768px) {}
-
-
-@media (max-width: 767px) and (min-width: 576px) {}
-
-
-@media (max-width: 1199px) and (min-width: 992px) {}
+@media min-width:
